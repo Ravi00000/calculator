@@ -1,0 +1,121 @@
+print('1.Add')
+print('2.Substract')
+print('3.Multiply')
+print('4.Divide')
+
+while True:
+
+    operation = int(input('Enter the operations to be performed:'))
+
+    if operation==1:
+        num1=input('Enter first Number:')
+        num2 = input('Enter Second Number:')
+        result=int(num1)+int(num2)
+        print('the sum is:'+str(result))
+        while True:
+            operation = int(input('Enter the operations to be performed:'))
+            if operation==1:
+                num=int(input('enter number:'))
+                result+=num
+                print('Result:'+str(result))
+            elif operation==2:
+                num = int(input('enter number:'))
+                result -= num
+                print('Result:' + str(result))
+            elif operation==3:
+                num = int(input('enter number:'))
+                result *= num
+                print('Result:' + str(result))
+            elif operation==4:
+                num = int(input('enter number:'))
+                result /= num
+                print('Result:' + str(result))
+            else:
+                print('Invalid Entry')
+                continue
+
+    elif operation==2:
+        num1=input('Enter first Number:')
+        num2 = input('Enter Second Number:')
+        result=int(num1)-int(num2)
+        print('the diffrence is:'+str(result))
+        while True:
+            operation = int(input('Enter the operations to be performed:'))
+            if operation==1:
+                num=int(input('enter number:'))
+                result+=num
+                print('Result:'+str(result))
+            elif operation==2:
+                num = int(input('enter number:'))
+                result -= num
+                print('Result:' + str(result))
+            elif operation==3:
+                num = int(input('enter number:'))
+                result *= num
+                print('Result:' + str(result))
+            elif operation==4:
+                num = int(input('enter number:'))
+                result /= num
+                print('Result:' + str(result))
+            else:
+                print('Invalid Entry')
+                continue
+
+    elif operation==3:
+        num1=input('Enter first Number:')
+        num2 = input('Enter Second Number:')
+        result=int(num1)*int(num2)
+        print('the result is:'+str(result))
+        while True:
+            operation = int(input('Enter the operations to be performed:'))
+            if operation==1:
+                num=int(input('enter number:'))
+                result+=num
+                print('Result:'+str(result))
+            elif operation==2:
+                num = int(input('enter number:'))
+                result -= num
+                print('Result:' + str(result))
+            elif operation==3:
+                num = int(input('enter number:'))
+                result *= num
+                print('Result:' + str(result))
+            elif operation==4:
+                num = int(input('enter number:'))
+                result /= num
+                print('Result:' + str(result))
+            else:
+                print('Invalid Entry')
+                continue
+
+
+    elif operation==4:
+        num1=input('Enter first Number:')
+        num2 = input('Enter Second Number:')
+        result=int(num1)/int(num2)
+        print('the result is:'+str(result))
+        while True:
+            operation = int(input('Enter the operations to be performed:'))
+            if operation==1:
+                num=int(input('enter number:'))
+                result+=num
+                print('Result:'+str(result))
+            elif operation==2:
+                num = int(input('enter number:'))
+                result -= num
+                print('Result:' + str(result))
+            elif operation==3:
+                num = int(input('enter number:'))
+                result *= num
+                print('Result:' + str(result))
+            elif operation==4:
+                num = int(input('enter number:'))
+                result /= num
+                print('Result:' + str(result))
+            else:
+                print('Invalid Entry')
+                continue
+
+    else:
+        print('invalid entry')
+        break
